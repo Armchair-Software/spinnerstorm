@@ -20,10 +20,8 @@ class spinner {
   size_t spinner_index{0};
 
 public:
-  unsigned int print_interval{Interval};
-
   void update() {
-    if((++line_count & print_interval) != 0U) return;
+    if((++line_count & Interval) != 0U) return;
     if(spinner_size == 0U) return;
     size_t const index = spinner_power_of_two
         ? (spinner_index++ & spinner_mask)

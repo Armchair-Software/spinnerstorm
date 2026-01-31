@@ -6,7 +6,7 @@ the terminal (e.g., during file processing, network calls, or long loops).
 
 A spinner can provide a fast indication of how fast work is progressing, or whether work
 has stalled, without having to know the full size of the work in advance (as you might
-for a progress bar).
+for a progress bar - for that, see the [progressstorm](https://github.com/Armchair-Software/progressstorm) library).
 
 ## Why this library
 
